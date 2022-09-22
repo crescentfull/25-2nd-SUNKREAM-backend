@@ -36,7 +36,7 @@
 
 ## 💻 구현 기능
 
-endpoint documentation - (postman API)[https://documenter.getpostman.com/view/17773566/2s7ZE5r4jy]
+Endpoint documentation - [Postman API](https://documenter.getpostman.com/view/17773566/2s7ZE5r4jy)
 
 ### BACKEND
 #### 박치훈
