@@ -35,6 +35,9 @@
 ![kream](https://user-images.githubusercontent.com/78721108/139569506-39104ecf-7060-4aa0-8d45-c834bc1a4174.png)
 
 ## 💻 구현 기능
+
+endpoint documentation - (postman API)[https://documenter.getpostman.com/view/17773566/2s7ZE5r4jy]
+
 ### BACKEND
 #### 박치훈
 
