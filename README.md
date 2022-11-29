@@ -64,10 +64,21 @@ Endpoint documentation - [Postman API](https://documenter.getpostman.com/view/17
   유저-상품 중간테이블을 조회하여 FE에게 True/False값을 전달해 주었습니다.
 
 #### 송영록
-- > 상세 페이지
--
-- > 상품 리스트
-- 
+
+> 상세 페이지
+- 구매, 판매 가격 입찰데이터 join하여 filter로 출력
+- 제품이 없을 경우 'product_id_not_exist' 반환
+- 주문 목록은 주문일시가 빠른 시간부터 정렬
+- 좋아요(관심상품) 클릭 수를 len()함수를 써서 전체 숫자 출력
+- 제품 ID, 제품명, 브랜드명, 제품 발매가격, 모델 번호, 해당 제품 이미지, 현재 가격(입찰 없을 경우 none), 구매가격, 판매가격, 총 관심상품 등록 수  >>> dictionary json 반환
+
+> 상품 리스트 출력 API(ProductView)
+- 프론트 요청시 제품 데이터 40개 제한 출력(offset,limit)
+- 제품 ID, 브랜드명, 제품명, 썸네일이미지, 제품 가격(살떄), 제품 발매가격 >>> dictionary json 반환
+
+> 브랜드 리스트 출력 API(BrandView)
+- 메인 페이지, 제품 페이지 상단 브랜드 출력을 위하여 API 작성
+
 
 ## ❗ Reference
 - 이 프로젝트는 [KREAM](https://kream.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.
