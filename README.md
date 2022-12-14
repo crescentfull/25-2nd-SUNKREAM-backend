@@ -17,14 +17,13 @@
 
 - 개발 기간 : 2021/10/18 ~ 2021/10/29
 - 개발 인원 <br/>
- 👨‍👧‍👦 **Front-End** 4명 : [김현진](https://github.com/71summernight), [박산성](https://github.com/p-acid), [이선호](https://github.com/sunhoh), [하상영](https://github.com/sangyouh) <br/>
-- [Front-end github 링크](https://github.com/wecode-bootcamp-korea/25-2nd-SUNKREAM-frontend)<br/>
- 👨‍👧‍👦 **Back-End** 3명 : [박치훈](https://github.com/chihunmanse), [양가현](https://github.com/chrisYang256), [송영록](https://github.com/crescentfull)<br/>
+ 👨‍👧‍👦 **Front-End** 4명 : 김현진, 박산성, 이선호, 하상영<br/>
+ 👨‍👧‍👦 **Back-End** 3명 : 박치훈, 양가현, 송영록<br/>
 - [Back-end github 링크](https://github.com/wecode-bootcamp-korea/25-2nd-SUNKREAM-backend)
 
 ## 🎬 프로젝트 구현 영상
 
-- 🔗 [영상 링크] : 추후 재업데이트 예정
+- 🔗 [구현영상] : https://youtu.be/N63MUdDmDFI
 
 ## ⚙ 적용 기술
 - **Front-End** : HTML5, CSS3, React, SASS, JSX
@@ -39,29 +38,6 @@
 Endpoint documentation - [Postman API](https://documenter.getpostman.com/view/17773566/2s7ZE5r4jy)
 
 ### BACKEND
-#### 박치훈
-
-> 입찰 결제
-- 입찰 생성
-- 구매/판매 사이즈별 입찰가 조회
-- 주문 페이지에서 즉시 거래가 조회
-- 주문 생성
-- 상품 시세 조회
-- 마이페이지에서 주문, 입찰 내역 조회
-
-
-#### 양가현
-
-> 소셜 로그인
-- kakao social login / singup을 구현했습니다.
-- 우리 서비스에 부합하는 회원정보만을 kakao로부터 response받습니다.
-- 홈페이지 구조상 소셜로그인 하는 유저는 회원가입 의도가 있음을 착안하여 
-  비회원의 경우 회원가입이 자동으로 되도록 로직을 설계하였습니다.
-
-> 관심상품
-- 관심상품에 대한 페이지는 둘로 나누어져 있고 동일한 API를 사용하도록 하였습니다.
-- 상품 상세페이지 재 진입시 해당 상품에 대한 관심상품 등록정보가 필요하여
-  유저-상품 중간테이블을 조회하여 FE에게 True/False값을 전달해 주었습니다.
 
 #### 송영록
 
